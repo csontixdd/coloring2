@@ -1,6 +1,10 @@
 const button= document.querySelector("button");
 
+const inputs = document.querySelectorAll("input");
+inputs.forEach(inp => {
+inp.addEventListener("")
 
+})
 
 button.onclick =()=> {
     const red=document.querySelector("input:first-child");
